@@ -5,8 +5,10 @@
   overflow: hidden; }
 
 body {
-  background-image: url(../img/BG.png);
+  background-image: url(../img/BGjpg);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh; }
 
 #player {
