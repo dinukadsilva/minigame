@@ -6,7 +6,7 @@
 
 body {
   background-image: url("/img/BG.png");
-  background-size: cover;
+  background-size: contain;
   height: 100vh; }
 
 #player {

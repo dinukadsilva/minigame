@@ -11,11 +11,11 @@ setInterval(()=>{
 
     /* Animation part of the image */
     if(dx !== 0){
-        player.style.backgroundImage = `url('../img/Walk${index++}.png')`
+        player.style.backgroundImage = `url('img/Walk${index++}.png')`
     } else if(dy > 0.5 || dy < 0){
-        player.style.backgroundImage = `url('../img/Jump${index++}.png')`
+        player.style.backgroundImage = `url('img/Jump${index++}.png')`
     } else{
-        player.style.backgroundImage = `url('../img/Idle${index++}.png')`
+        player.style.backgroundImage = `url('img/Idle${index++}.png')`
     }
     if(index > 8) index = 1;
 
