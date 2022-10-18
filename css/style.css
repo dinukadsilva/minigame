@@ -5,12 +5,12 @@
   overflow: hidden; }
 
 body {
-  background-image: url("../img/BG.png");
+  background-image: url(../img/BG.png);
   background-size: contain;
   height: 100vh; }
 
 #player {
-  background-image: url("../img/Idle1.png");
+  background-image: url(../img/Idle1.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 70px;
