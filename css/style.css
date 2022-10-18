@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+body {
+  background-image: url("/img/BG.png");
+  background-size: cover;
+  height: 100vh; }
+
+#player {
+  background-image: url("/img/Idle1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  bottom: 250px; }
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px; }
+
+.turn {
+  transform: rotateY(180deg); }
+
+/*# sourceMappingURL=style.css.map */
